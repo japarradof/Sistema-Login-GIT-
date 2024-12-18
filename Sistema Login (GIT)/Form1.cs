@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Sistema_de_Login_GitHub.Data;
 
 namespace Sistema_Login__GIT_
 {
@@ -15,6 +16,7 @@ namespace Sistema_Login__GIT_
         public Form1()
         {
             InitializeComponent();
+            Connection.openConnection();
         }
     }
 }
